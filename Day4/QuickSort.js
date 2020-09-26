@@ -4,7 +4,7 @@ function swap(items, leftIndex, rightIndex){
     items[rightIndex] = temp;
 }
 
-//partition logic
+//partition logic - selecting pivot
 function partition(items, left, right){
     var pivot = items[Math.floor((right+left)/2)];
     var i = left;
